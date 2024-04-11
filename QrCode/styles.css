@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .container {
+    text-align: center;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 23px;
+    background-color:cornsilk;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: darkblue;
+  }
+  
+  #qrCode {
+    margin-top: 20px;
+    
+  }
+  
